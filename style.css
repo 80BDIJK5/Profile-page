@@ -63,16 +63,16 @@ ul {
 
 .profile-card {
   text-align: center;
-  background: #d6d6d6;
+  background: #e6e6e6;
   padding: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #d6d6d6;
   border-radius: 1%;
 }
 
 .img-shadow {
-  box-shadow: 1px 1px 1px #FFFFFF
+  box-shadow: 1px 1px 1px #d6d6d6;
 }
 
 .btn {
