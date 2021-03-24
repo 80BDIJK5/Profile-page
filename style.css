@@ -14,6 +14,10 @@ h1 {
   font-size: 1.5em;
 }
 
+h2 {
+  font-size: 2em;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
@@ -66,7 +70,7 @@ ul {
 }
 
 .img-shadow {
-  box-shadow: 2px 2px 1px #FFFFFF
+  box-shadow: 1px 1px 1px #FFFFFF
 }
 
 .btn {
