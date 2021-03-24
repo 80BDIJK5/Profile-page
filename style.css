@@ -58,11 +58,11 @@ ul {
   padding: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #FFFFFF;
 }
 
 .img-shadow {
-  box-shadow: 2px 2px 1px #e6e6e6
+  box-shadow: 2px 2px 1px #FFFFFF
 }
 
 .btn {
