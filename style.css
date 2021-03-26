@@ -67,9 +67,12 @@ ul {
   padding: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  box-shadow: 1px 1px 1px #d7d7d7;
-  border-radius: 1%;
-}
+ }
+
+ .profile-card:hover{
+    box-shadow: 1px 8px 20px grey;
+    transition:  box-shadow .6s ease-in;
+  }
 
 .img-shadow {
   box-shadow: 1px 1px 1px #d6d6d6;
