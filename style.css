@@ -76,6 +76,7 @@ ul {
 }
 
 .profile-card {
+  display: flex;
   text-align: center;
   background: #e6e6e6;
   padding: 30px;
