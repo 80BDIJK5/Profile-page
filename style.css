@@ -73,6 +73,7 @@ ul {
   width: 800px;
   margin: 0 auto;
   margin-top: 50px;
+  display: flex;
 }
 
 .profile-card {
