@@ -1,7 +1,9 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Roboto:300,400,500,700");
 
 body {
-  background-color: rgb(250, 250, 250);
+  background-color: #FAFAFA;
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+  background-image: url(images/background.jpeg);
 }
 
 h1, h2 {
@@ -11,8 +13,24 @@ h1, h2 {
   font-size: 16px;
 }
 
+h1 {
+  font-size: 24px;
+  border-bottom: 2px solid #00adaf;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 20px;
+  border-bottom: 2px solid #00adaf;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+
 p {
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
   font-weight: lighter;
   margin-bottom: 40px;
 }
@@ -26,7 +44,7 @@ a {
 a:hover {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
-  color: #90C3C8;
+  color: #007b7c;
 }
 
 .icons {
@@ -41,7 +59,11 @@ li {
 }
 
 img {
-  border-radius: 50%;
+  width:100px;
+  height:100px;
+  background-size:contain;
+  background-position:center;
+  border-radius:50%;
 }
 
 ul {
@@ -51,6 +73,7 @@ ul {
 .container {
   width: 600px;
   margin: 0 auto;
+  margin-top: 50px;
 }
 
 .profile-card {
@@ -59,25 +82,30 @@ ul {
   padding: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border: 1px solid #B8B3BE;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+ }
+
+.profile-card:hover{
+    box-shadow: 1px 2px 1px #d6d6d6;
+    transition:  box-shadow .6s ease-in;
 }
 
 .img-shadow {
-  box-shadow: 2px 2px 1px #B8B3BE
+  box-shadow: 1px 1px 1px #d6d6d6;
 }
 
 .btn {
   background-color: #4B5C81;
-  color: white;
-  font-weight: bolder;
-  padding: 8px 24px;
+  color: #e6e6e6;
+  font-weight: bold;
+  padding: 8px 8px;
 }
 
 .btn:hover {
-  background-color: #90C3C8;
-  color: white;
-  font-weight: bolder;
-  padding: 8px 24px;
+  background-color: #007b7c;
+  color: #e6e6e6;
+  font-weight: bold;
 }
 
 @media (max-width: 960px) {
