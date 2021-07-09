@@ -10,6 +10,7 @@ h1, h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   color: #273043;
+  font-size: 16px;
 }
 
 h1 {
@@ -77,8 +78,8 @@ ul {
 
 .profile-card {
   text-align: center;
-  background: #D7D7D7;
-  padding: 10px;
+  background: rgb(230, 230, 230);
+  padding: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 3px;
